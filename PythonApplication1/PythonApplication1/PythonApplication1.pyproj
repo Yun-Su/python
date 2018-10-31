@@ -28,6 +28,12 @@
     <Compile Include="判断.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="布尔值.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="布尔判断.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="转义字符.py">
       <SubType>Code</SubType>
     </Compile>
