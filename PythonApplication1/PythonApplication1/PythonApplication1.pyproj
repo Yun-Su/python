@@ -28,6 +28,12 @@
     <Compile Include="判断.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="加减乘除.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="字符串和编码.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="布尔值.py">
       <SubType>Code</SubType>
     </Compile>
