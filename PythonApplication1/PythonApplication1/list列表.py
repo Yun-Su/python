@@ -23,5 +23,6 @@ classmate[2]='第1000个'
 print('对list中元素进行重新赋值',classmate[2])
 print('重新赋值以后列表现在是',classmate)
 s = ['python', 'java', ['asp', 'php'], 'scheme']
+L=[]
 #还可以这样创建list,list中创建list
 print(len(s))
