@@ -10,4 +10,5 @@ t[2][0] = 'X'
 t[2][1] = 'Y'
 #其中 A B X Y为list元素
 print(t)
+print(t[0])#打印tuple第一个元素
 
