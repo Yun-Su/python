@@ -27,6 +27,12 @@
     <Compile Include="ifelse.py" />
     <Compile Include="input和output.py" />
     <Compile Include="list列表.py" />
+    <Compile Include="map函数.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="reduce函数.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="set类型.py" />
     <Compile Include="tuple.py" />
     <Compile Include="传入参数.py" />
@@ -41,6 +47,9 @@
     <Compile Include="布尔值.py" />
     <Compile Include="布尔判断.py" />
     <Compile Include="循环.py" />
+    <Compile Include="迭代器.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="高级特性之斐波那契数列.py">
       <SubType>Code</SubType>
     </Compile>
