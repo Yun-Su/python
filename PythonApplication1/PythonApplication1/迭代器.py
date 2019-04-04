@@ -5,4 +5,4 @@ it = iter(list)    # 创建迭代器对象
 
 #使用for循环来输出
 for x in it:
-    print(x)
+    print(x)#python语句语句运行和代码缩进/换行 严格相关.

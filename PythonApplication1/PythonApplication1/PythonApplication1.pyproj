@@ -50,6 +50,9 @@
     <Compile Include="迭代器.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="迭代器生成器.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="高级特性之斐波那契数列.py">
       <SubType>Code</SubType>
     </Compile>
