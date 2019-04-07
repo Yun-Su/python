@@ -35,8 +35,17 @@
     </Compile>
     <Compile Include="set类型.py" />
     <Compile Include="tuple.py" />
+    <Compile Include="不定长参数传递.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="不定长参数传递2.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="传入参数.py" />
     <Compile Include="关键字参数之限定参数.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="函数参数传递.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="判断.py" />
