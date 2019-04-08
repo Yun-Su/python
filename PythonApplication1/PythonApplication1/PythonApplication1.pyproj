@@ -21,19 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="全局变量局部变量误区.py">
+    <Compile Include="file_code1.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="全局变量和局部变量.py">
+    <Compile Include="file_code2.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="全局变量局部变量关键字.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="列表作为堆栈队列使用.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="数据结构.py">
+    <Compile Include="模块.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
