@@ -21,75 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="def函数.py" />
-    <Compile Include="dic类型.py" />
-    <Compile Include="helloword.py" />
-    <Compile Include="ifelse.py" />
-    <Compile Include="input和output.py" />
-    <Compile Include="list列表.py" />
-    <Compile Include="map函数.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="reduce函数.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="set类型.py" />
-    <Compile Include="tuple.py" />
-    <Compile Include="不定长参数传递.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="不定长参数传递2.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="传入参数.py" />
-    <Compile Include="关键字参数之限定参数.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="函数参数传递.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="判断.py" />
-    <Compile Include="加减乘除.py" />
-    <Compile Include="匿名函数.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="可变参数.py" />
-    <Compile Include="可变参数之关键字参数.py" />
-    <Compile Include="字符串和编码.py" />
-    <Compile Include="布尔值.py" />
-    <Compile Include="布尔判断.py" />
-    <Compile Include="循环.py" />
-    <Compile Include="迭代器.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="迭代器生成器.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="高级特性之斐波那契数列.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="混合参数调用.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="结束循环.py" />
-    <Compile Include="转义字符.py" />
-    <Compile Include="输出.py" />
-    <Compile Include="高级特性之列表生成式.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="高级特性之生成器.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="高级特性之迭代器.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="高级特性迭代.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="递归函数.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="高级特性切片.py">
+    <Compile Include="return函数.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
