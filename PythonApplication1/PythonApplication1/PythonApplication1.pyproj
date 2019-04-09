@@ -21,13 +21,34 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="fibo1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="fibo2.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="file_code1.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="file_code2.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="from_improt语句.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="using_name.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="模块.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="读写文件.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="读取键盘.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="输入输出.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
