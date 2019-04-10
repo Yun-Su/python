@@ -20,5 +20,17 @@ print(str)
 f.close()
 
 
+#!/usr/bin/python3
+#写入字符串到文本中
+f = open("C:/Users/J/Desktop/社会主义核心价值观.txt", "w")
+value = ('www.Pornhub.com',123456789)#一个普通的tuple函数
+s = str(value)
+#Python3 str() 函数是内置函数，可以直接使用
+#作用是将其他类型转化为字符串形式
+f.write(s)
+f.close()
+
+
+
 
 

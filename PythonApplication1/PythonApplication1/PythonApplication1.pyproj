@@ -36,6 +36,7 @@
     <Compile Include="from_improt语句.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="tuple.py" />
     <Compile Include="using_name.py">
       <SubType>Code</SubType>
     </Compile>
