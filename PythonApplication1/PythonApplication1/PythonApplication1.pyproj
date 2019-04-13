@@ -21,37 +21,77 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="fibo1.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="fibo2.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="file_code1.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="file_code2.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="from_improt语句.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="def函数.py" />
+    <Compile Include="del语句.py" />
+    <Compile Include="dict遍历.py" />
+    <Compile Include="dic类型.py" />
+    <Compile Include="fibo1.py" />
+    <Compile Include="fibo2.py" />
+    <Compile Include="file_close.py" />
+    <Compile Include="file_code1.py" />
+    <Compile Include="file_code2.py" />
+    <Compile Include="from_improt语句.py" />
+    <Compile Include="ftell_fseek.py" />
+    <Compile Include="helloword.py" />
+    <Compile Include="ifelse.py" />
+    <Compile Include="input和output.py" />
+    <Compile Include="list列表.py" />
+    <Compile Include="map函数.py" />
+    <Compile Include="mutable.py" />
+    <Compile Include="open.py" />
+    <Compile Include="OS.access%28%29.py" />
+    <Compile Include="pick模块.py" />
+    <Compile Include="python数据类型.py" />
+    <Compile Include="python模块.py" />
+    <Compile Include="reduce函数.py" />
+    <Compile Include="return函数.py" />
+    <Compile Include="set类型.py" />
     <Compile Include="tuple.py" />
-    <Compile Include="using_name.py">
+    <Compile Include="using_name.py" />
+    <Compile Include="不定长参数传递.py" />
+    <Compile Include="不定长参数传递2.py" />
+    <Compile Include="传入参数.py" />
+    <Compile Include="全局变量和局部变量.py" />
+    <Compile Include="全局变量局部变量关键字.py" />
+    <Compile Include="全局变量局部变量误区.py" />
+    <Compile Include="关键字参数之限定参数.py" />
+    <Compile Include="函数参数传递.py" />
+    <Compile Include="列表作为堆栈队列使用.py" />
+    <Compile Include="列表推导式.py" />
+    <Compile Include="判断.py" />
+    <Compile Include="加减乘除.py" />
+    <Compile Include="匿名函数.py" />
+    <Compile Include="可变参数.py" />
+    <Compile Include="可变参数之关键字参数.py" />
+    <Compile Include="字符串和编码.py" />
+    <Compile Include="布尔值.py" />
+    <Compile Include="布尔判断.py" />
+    <Compile Include="循环.py" />
+    <Compile Include="循环读取文件内容.py" />
+    <Compile Include="数据结构.py" />
+    <Compile Include="模块.py" />
+    <Compile Include="混合参数调用.py" />
+    <Compile Include="类的实例.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="模块.py">
+    <Compile Include="类继承.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="读写文件.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="读取键盘.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="输入输出.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="结束循环.py" />
+    <Compile Include="读写文件.py" />
+    <Compile Include="读取键盘.py" />
+    <Compile Include="转义字符.py" />
+    <Compile Include="输入输出.py" />
+    <Compile Include="输出.py" />
+    <Compile Include="迭代器.py" />
+    <Compile Include="迭代器生成器.py" />
+    <Compile Include="递归函数.py" />
+    <Compile Include="高级特性之列表生成式.py" />
+    <Compile Include="高级特性之斐波那契数列.py" />
+    <Compile Include="高级特性之生成器.py" />
+    <Compile Include="高级特性之迭代器.py" />
+    <Compile Include="高级特性切片.py" />
+    <Compile Include="高级特性迭代.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
