@@ -48,6 +48,9 @@
     <Compile Include="set类型.py" />
     <Compile Include="tuple.py" />
     <Compile Include="using_name.py" />
+    <Compile Include="init函数.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="不定长参数传递.py" />
     <Compile Include="不定长参数传递2.py" />
     <Compile Include="传入参数.py" />
