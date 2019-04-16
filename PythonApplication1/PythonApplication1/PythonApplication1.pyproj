@@ -22,11 +22,20 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="init函数.py" />
+    <Compile Include="super函数.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="单继承的类.py" />
     <Compile Include="多继承的类.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="类的方法重写.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="类的实例.py" />
+    <Compile Include="类的访问限制.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="访问类的属性和方法.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
