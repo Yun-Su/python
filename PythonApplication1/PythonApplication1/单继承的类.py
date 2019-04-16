@@ -15,12 +15,12 @@ class people:
 #单继承示例
 class student(people):
     grade = ''
-    def __init__(self,n,a,w,g):
-        #调用父类的构函
-        people.__init__(self,n,a,w)
+    def __init__(self,n,a,w,g): 
+       
+        people.__init__(self,n,a,w) #调用父类的构函
         self.grade = g
-    #覆写父类的方法
-    def speak(self):
+   
+    def speak(self): #覆写父类的方法
         print("%s 说: 我 %d 岁了，我在读 %d 年级"%(self.name,self.age,self.grade))
  
 s = student('ken',10,60,3)
