@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="dir函数.py">
+    <Compile Include="dir_len_lower函数.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="init函数.py" />
@@ -30,6 +30,9 @@
     </Compile>
     <Compile Include="单继承的类.py" />
     <Compile Include="多继承的类.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="实例属性和类属性.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="类的方法重写.py">
