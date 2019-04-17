@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="dir函数.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="init函数.py" />
     <Compile Include="super函数.py">
       <SubType>Code</SubType>
@@ -37,6 +40,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="类的访问限制.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="type和isinstance.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="访问类的属性和方法.py" />
