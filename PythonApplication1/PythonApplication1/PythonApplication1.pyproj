@@ -33,6 +33,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="类的实例.py" />
+    <Compile Include="类的继承和多态.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="类的访问限制.py">
       <SubType>Code</SubType>
     </Compile>
