@@ -8,16 +8,12 @@ s.hello="123456"
 print("实例s的属性:",s.score,s.name,s.hello)
 
 
-
-
-
 class Student(object):
     name = 'Student'
-
-s = Student() # 创建实例s
+s = Student() # 创建实例的对象s
 print(s.name) # 打印name属性，因为实例并没有name属性，所以会继续查找class的name属性
 print(Student.name) # 打印类的name属性
-s.name = 'Michael' # 给实例s绑定name属性
+s.name = 'Michael' # 给实例对象s绑定name属性
 print(s.name) # 由于实例s属性优先级比类属性高
               #所以它会屏蔽掉类的name属性
 print(Student.name) # 但是类属性并未消失，用Student.name仍然可以访问

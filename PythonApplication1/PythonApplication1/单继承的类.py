@@ -14,7 +14,6 @@ class people:
 class student(people):
     grade = ''
     def __init__(self,n,a,w,g): 
-       
         people.__init__(self,n,a,w) #调用父类的构函
         self.grade = g
    

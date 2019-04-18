@@ -1,25 +1,13 @@
-class Animal(object):
-    def __init__(self, name):
-        self.name = name
-    def greet(self):
-        print ('Hello, I am %s.' % self.name)
+class FooParent(object):
+    def a(self):
+        print ('Parent')
+ 
+class FooChild(FooParent):
+    def b(self):
+        # super(FooChild,self) 首先找到 FooChild 的父类（就是类 FooParent），然后把类B的对象 FooChild 转换为类 FooParent 的对象
+        #还可以写成super().a()
+        super().a()    
+        print ('Child')
 
-class Dog(Animal):
-    def at(self):
-        super().greet()
-        print('WangWang..')
-
-
-#dog=Dog()
-#dog.at()
-
-class A:
-     def add(self, x):
-         y = x+1
-         print(y)
-
-class B(A):
-    def add(self, x):
-        super().add(x)
-b = B()
-b.add(2)  # 3
+c=FooChild()
+c.b()
