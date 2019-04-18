@@ -9,5 +9,16 @@ class FooChild(FooParent):
         super().a()    
         print ('Child')
 
+class FooGrandson(FooChild):
+    def d(self):
+        super().a()#如例所示,如果在上一个继承中没有找到对应的函数
+        #super()就会在上上个继承中继续找,以此类推
+        print ('GrandSon')
+
+
+
 c=FooChild()
 c.b()
+
+e=FooGrandson()
+e.d()
