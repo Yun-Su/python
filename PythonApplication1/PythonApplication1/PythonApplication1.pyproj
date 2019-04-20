@@ -25,6 +25,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="init函数.py" />
+    <Compile Include="super%28%29.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="super函数.py">
       <SubType>Code</SubType>
     </Compile>
