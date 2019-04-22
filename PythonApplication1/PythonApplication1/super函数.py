@@ -28,30 +28,3 @@ print('_________')
 #Parent
 #Child
 #Grandson
-
-class Base:
-    def __init__(self):
-        print('Base')
-
-class A(Base):
-    def __init__(self):
-        Base.__init__(self)
-        print('A')
-
-class B(Base):
-    def __init__(self):
-        Base.__init__(self)
-        print('B')
-
-class C(A,B):
-    def __init__(self):
-        A.__init__(self)
-        B.__init__(self)
-        print('C')
-
-c=C()
-#Base
-#A
-#Base
-#B
-#C
